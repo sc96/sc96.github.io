@@ -1,4 +1,4 @@
-#topbar {
+.topbar {
 
 	position: absolute;
 	margin-top:  0px;
@@ -13,7 +13,8 @@
 
 body {
 	background: url('./canyon.jpg');
-	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: bottom;
 
 }
 
@@ -25,12 +26,13 @@ body {
 	font-weight: 300;
 }
 
-#topbar > div {
+.topbar > div {
 
 	float:right;
 	margin-right: 20px;
 	line-height:80px;
 	vertical-align: middle;
+
 }
 
 #jumbo {
@@ -57,7 +59,7 @@ body {
 	margin: 0 10px;
 	padding:  10px 40px;
 	border: 0px;
-	border-radius: lightcoral;
+	border-radius: 5px;
 	color:white;
 	background-color: #EE7F2D;
 	text-decoration: none;
